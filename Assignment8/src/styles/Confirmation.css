@@ -1,0 +1,9 @@
+.confirmation-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .confirmation-container p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
