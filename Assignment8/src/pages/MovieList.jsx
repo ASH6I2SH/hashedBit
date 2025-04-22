@@ -28,7 +28,7 @@ const MovieList = () => {
       <div className="movie-grid">
         {movies.map(movie => (
           <Link to={`/movie/${movie.id}`} className="movie-card" key={movie.id}>
-            <img src={movie.image} alt={movie.title} />
+            <img className="image" src={movie.image} alt={movie.title} />
             <p>{movie.title}</p>
             <p>{movie.screen}</p>
             <p>{movie.price}</p>

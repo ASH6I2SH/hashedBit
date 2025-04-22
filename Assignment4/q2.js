@@ -13,3 +13,6 @@ function createDiv(width, height, text) {
     
     // Do not change this code
     Window.createDiv = createDiv;
+
+    // example usage
+    // createDiv(150, 150, "hello")

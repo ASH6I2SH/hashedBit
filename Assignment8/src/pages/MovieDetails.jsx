@@ -35,7 +35,6 @@ function MovieDetails() {
   return (
     <div className="details-container">
       <h2>{movie.title}</h2>
-      <img src={movie.image} alt={movie.title} />
       <p><strong>Screen:</strong> {movie.screen}</p>
       <p><strong>Price:</strong> {movie.price}</p>
       <p>This is a detailed description of {movie.title}.</p>
