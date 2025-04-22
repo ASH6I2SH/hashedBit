@@ -1,3 +1,11 @@
+<!-- Create a table for displaying the points of IPL Season 2022. -->
+
+<!-- The data is provided in this API endpoint: https://my-json-server.typicode.com/FreSauce/json-ipl/data -->
+
+<!-- Use a script to fetch the data from the given API endpoint. Sort the data fetched in ascending order based on the NRR value of each team. Display the sorted data in the table. -->
+
+<!-- Sample - https://d3dyfaf3iutrxo.cloudfront.net/thumbnail/assignment/question/bafab3d0831447f794446aad34184ee7.png -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,7 +38,7 @@
       .then(response => response.json())
       .then(data => {
         // Sort data by NRR in ascending order
-        data.sort((a, b) => parseFloat(a.nrr) - parseFloat(b.nrr));
+        data.sort((a, b) => parseFloat(a.NRR) - parseFloat(b.NRR));
 
         const tableBody = document.getElementById('pointsTableBody');
 
